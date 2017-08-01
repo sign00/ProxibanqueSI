@@ -9,7 +9,10 @@ package fr.gtm.proxibanquesi.metier;
  */
 public class SavingsAccount extends BasicAccount {
 
-	private float savingsRate;
+	/**
+	 * Default savingsRate is 3%
+	 */
+	private float savingsRate = .03f;
 	
 	/**
 	 * @param ACCOUNT_TYPE
