@@ -43,6 +43,7 @@ public class BasicAccount {
 		
 		if(creationDate == null)
 			this.creationDate = Constants.DEFAULT_CREATION_DATE;
+		//si pas de saisie, juste ""//
 		else if(creationDate.isEmpty())
 			this.creationDate = Constants.DEFAULT_CREATION_DATE;
 		else 
