@@ -4,14 +4,16 @@
 package fr.gtm.proxibanquesi.metier;
 
 import java.util.ArrayList;
+import java.util.Hashtable;
 import java.util.Iterator;
 
 /**
  * @author Adminl
  *
  */
-public class Accounts extends ArrayList<BasicAccount> {
+public class Accounts extends Hashtable<Client, ArrayList<BasicAccount>> {
 
+/*	
 	public BasicAccount findAccount(String accountNumber) {
 		
 		BasicAccount ba = null;
@@ -36,4 +38,5 @@ public class Accounts extends ArrayList<BasicAccount> {
 	public Accounts() {
 		super();
 	}
+	*/
 }
